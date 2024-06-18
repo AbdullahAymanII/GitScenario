@@ -4,4 +4,14 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("hello from develop team");
     }
+    public static void printDoubles(double[]doubles){
+        for (int i = 0; i < doubles.length; i++) {
+            System.out.println(doubles[i]);
+        }
+    }
+    public static void printStrings(String[]Strings){
+        for (int i = 0; i < Strings.length; i++) {
+            System.out.println(Strings[i]);
+        }
+    }
 }
