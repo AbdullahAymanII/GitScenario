@@ -8,6 +8,9 @@ public class Main {
 
         double[] doubles={1.2,2.5,7.6};
         printDoubles(doubles);
+
+        String[]strings={"aaa","bbb","dddd"};
+        printStrings(strings);
     }
     public static void printDoubles(double[]doubles){
         for (int i = 0; i < doubles.length; i++) {
