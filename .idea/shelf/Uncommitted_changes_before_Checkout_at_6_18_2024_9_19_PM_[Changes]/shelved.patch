@@ -1,0 +1,28 @@
+Index: PrintsProject/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//TIP To <b>Run</b> code, press <shortcut actionId=\"Run\"/> or\r\n// click the <icon src=\"AllIcons.Actions.Execute\"/> icon in the gutter.\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"hello from develop team\");\r\n        System.out.println(\"hello from develop team\");\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/PrintsProject/src/Main.java b/PrintsProject/src/Main.java
+--- a/PrintsProject/src/Main.java	(revision abcbf9c54bf71870b9e9755413ef24c106f83351)
++++ b/PrintsProject/src/Main.java	(date 1718734711723)
+@@ -2,7 +2,14 @@
+ // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+ public class Main {
+     public static void main(String[] args) {
+-        System.out.println("hello from develop team");
+-        System.out.println("hello from develop team");
++        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
++        // to see how IntelliJ IDEA suggests fixing it.
++        System.out.printf("Hello and welcome!");
++
++        for (int i = 1; i <= 5; i++) {
++            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
++            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
++            System.out.println("i = " + i);
++        }
+     }
+ }
+\ No newline at end of file
