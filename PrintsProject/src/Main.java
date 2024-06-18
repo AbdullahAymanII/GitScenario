@@ -5,6 +5,7 @@ public class Main {
         System.out.println("hello from feature-1");
         int []arr={1,2,5,6};
         printIntigers(arr);
+        System.out.println("add new feature-print array of intigers");
     }
     public static void printIntigers(int[] arr){
         for (int i = 0; i < arr.length; i++) {
