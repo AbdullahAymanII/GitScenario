@@ -11,6 +11,8 @@ public class Main {
 
         String[]strings={"aaa","bbb","dddd"};
         printStrings(strings);
+
+        System.out.println("develop done");
     }
     public static void printDoubles(double[]doubles){
         for (int i = 0; i < doubles.length; i++) {
