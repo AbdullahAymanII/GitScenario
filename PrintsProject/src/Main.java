@@ -3,6 +3,8 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("hello from feature-1");
+        int []arr={1,2,5,6};
+        printIntigers(arr);
     }
     public static void printIntigers(int[] arr){
         for (int i = 0; i < arr.length; i++) {
